@@ -1,7 +1,9 @@
-# Example app for Elixir issue
+# Example app for Elixir issue #11815
 
 This showcases the condition where the deps of a loaded dep are still
 started in a release even though they are not direct deps with the parent.
+
+See https://github.com/elixir-lang/elixir/issues/11815
 
 ## Explaination
 
